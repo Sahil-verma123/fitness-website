@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FITNESS EMPIRE</title>
+
+    <link rel="stylesheet" href="fitness.css" >
+    <link rel="stylesheet" media="screen and (max-width: 1175px)" href="phone.css">
+    <script src="https://kit.fontawesome.com/57c84e0f27.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <ul class="rightnav">
+        <img
+          class="logo"
+          src="./fitness-images/gym8.jpg"
+          alt="logo"
+        />
+        <li class="items"><a class="active" href="#home">Home</a></li>
+        <li class="items"><a href="services.html" target="blank">Services</a></li>
+        <li class="items"><a href="about.html" target="blank">About-us</a></li>
+        <li class="items"><a href="join.html" target=" blank">Join-now</a></li>
+      </ul>
+      <div class="leftnav ">
+        <div class="search">
+          <input class="btn-sm" type="search" placeholder="type here" />
+          <button class="btn btn-sm">search</button>
+        </div>
+      </div>
+      
+    </nav>
+
+    <!-- this is our section one  -->
+
+    <section class="sec-one">
+      <div class="sec-left">
+        <p class="big">
+          Welcome to <b> FITNESS EMPIRE!</b> <br />Your best step towards
+          fitness.
+        </p>
+        <p class="small">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
+          quod aliquid soluta quia accusamus? repellendus ea et! Culpa facilis
+          impedit provident qui?Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Ipsam, labore.
+        </p>
+        <button class="subscribe login"><a href="https://m.youtube.com" target="blank">subscribe</a></button>
+        <button class="sign-up login"> sign-up</button>
+      </div>
+      <div class="sec-right">
+        <img src="./fitness-images/gymphoto2.jpg" alt="image" />
+      </div>
+    </section>
+
+    <!-- this is section two  -->
+
+    <section class="sec-two">
+      <p id="sec2heading">Our Services</p>
+      <div class="article1">
+        <div class="sec2image">
+          <img src="./fitness-images/gym4.jpg" alt="image" />
+        </div>
+        <div class="sec2para">
+          <h3 class="hop">Latest Equipments With Proper Cleaning</h3>
+          <br />
+          <p class="pop">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            consectetur rerum assumenda facere soluta nulla delectus dolorem
+            dolore pariatur? Atque consectetur, omnis vitae cupiditate ipsam
+            quas nostrum tenetur! Aspernatur veritatis dolor hic? Sunt,
+            obcaecati quibusdam?
+          </p>
+        </div>
+      </div>
+      <div class="article2">
+        <div class="sec2para">
+          <h3 class="hop2">Gym Accessecories With No Cost</h3>
+          <br />
+          <p class="pop2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+            tempore? Cumque velit cum vitae ad, ea sit accusantium dicta
+            corporis dolores magnam ipsum amet esse eveniet vero aperiam
+            facilis! Optio ipsum voluptatem ad explicabo nisi?
+          </p>
+        </div>
+        <div class="sec2image">
+          <img src="./fitness-images/gym3.jpg" alt="image" 
+          style="border: 5px solid black;">
+        </div>
+      </div>
+      <div class="article3">
+        <div class="sec2image">
+          <img src="./fitness-images/gymphoto3.jpg" alt="image" />
+        </div>
+        <div class="sec2para">
+          <h3 class="hop">Get Best Training with Coaches</h3>
+          <br />
+          <p class="pop">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            consectetur rerum assumenda facere soluta nulla delectus dolorem
+            dolore pariatur? Atque consectetur, Aspernatur veritatis dolor hic?
+            Sunt, obcaecati quibusdam?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- this is my joining form  -->
+
+    <section class="form">
+      <form action="">
+          <p class="join">Join Us Now</p>
+          <p>[ * ]  Represents Required Fields</p>
+
+            <p>Name:*<br> <input type="text" name=" name" placeholder="Your Name" class="ops"  required></p>
+            
+            <p>Age:*<br> <input type="number" name="age" placeholder="Your Age" required></p>
+            
+
+            <fieldset >
+              <legend>Gender:*</legend>
+              <p>
+                Male <input type="radio" name="gender" required> <br> Female<input
+                  type="radio"
+                  name="gender"
+                />
+              </p>
+            </fieldset><br>
+            <p>
+              Address:* <br>
+              <textarea name="address" id="address" cols="30" rows="5" placeholder="Your Address" required></textarea>
+            </p>
+            <p>Email: <br><input type="email" name="email" id="email " placeholder="Your email-id" class="ops"></p>
+            <p>Mobile no:* <br><input type="tel" name="number" id="no" placeholder="Your mobile-no" required></p>
+          
+          <!-- <div class="button">  -->
+            <button class="submit" onclick="myfunction()">Submit</button>
+          <!-- </div> -->
+    </form>
+
+    </section>
+
+
+
+
+    <!-- this is the footer section  -->
+    <footer>
+      <div class="foot">
+        <p>for any query contact us or mail us </p>
+        <hr><br>
+        <div class="follow">
+          <p> <a href="https://m.youtube.com" target="blank"><i class="fab fa-youtube"></i>Youtube </a></p>
+          <p> <a href="https://in.linkedin.com" target="blank"> <i class="fab fa-linkedin"></i>Linked-In</a></p>
+          <p> <a href="mailto:abc@sahil.com"> <i class="far fa-envelope"></i>Mail-Us</a></p>
+        </div>
+      </div>
+      <br>
+      <hr>
+
+
+      <p>
+        FITNESS EMPIRE <span>&#169</span> 2020 all rights reserved!
+      </p>
+
+    </footer>
+
+
+    <script src="js/resp.js"></script>
+  </body>
+</html>

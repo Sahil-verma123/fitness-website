@@ -1,0 +1,132 @@
+/* navigation section  */
+#navbar{
+    flex-direction: column;
+    
+}
+.rightnav{
+    width: 100%;
+}
+.logo{
+    margin-right: 30px;
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.leftnav div{
+    margin-left: 0;
+}
+
+
+/* this is section one  */
+
+.sec-left{
+    padding: 22px;
+    margin-top: 4rem;
+}
+.sec-left .big{
+    font-size: 1.5rem;
+}
+.sec-left .small{
+    font-size: 1rem;
+}
+
+.sec-one{
+    flex-direction: column;
+    height: 25rem;
+}
+.sec-right img{
+    margin-right: 0;
+}
+.login{
+    margin-top: 1rem;
+}
+
+/* this is section two */
+
+.sec-two{
+    margin-top: 5rem;
+}
+.article1,.article2,.article3{
+    flex-direction: column;
+}
+
+/* this is joining form  */
+.form{
+    padding: 2rem;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------- now this is fix at width of 580px */
+
+/* from now responsiveness lesser than 580px */
+
+
+@media only screen and (max-width:580px){
+
+    /* ============================hamburger styling============================= */
+  
+    /* .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 75px;
+    }
+    .v-class{
+        opacity: 0;
+    } */
+
+
+
+    .rightnav{
+      flex-direction: column;
+    }
+    .logo{
+      margin-right: 2px;
+      width: 55px;
+    }
+    .rightnav li{
+      font-size: .9rem;
+      padding:.2rem;
+      margin: .5rem;
+    }
+    .btn-sm{
+        font-size: .9rem;
+    }
+
+    .leftnav{
+      margin-bottom: 1rem;
+      margin-top: .5rem;
+    }
+    .sec-one{
+        height: 265px;
+    }
+    .sec-left .big{
+        font-size: 1.1rem;
+    }
+    .sec-left .small{
+        font-size: .9rem;
+        display: none;
+    }
+    .sec-left{
+      margin-top: .2rem;
+    }
+    .login{
+        font-size: .7rem;
+        padding: 5px;
+    }
+    
+    .sec-right img{
+      width: 190px;
+    }
+    .submit{
+        width: 33%;
+    }
+    .form input{
+        width: 15rem;
+    }
+  }
+  
